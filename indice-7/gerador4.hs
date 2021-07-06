@@ -1,0 +1,1 @@
+gerador4 = takeWhile (\n -> n > 0) . iterate (\x -> x `div` 2)
